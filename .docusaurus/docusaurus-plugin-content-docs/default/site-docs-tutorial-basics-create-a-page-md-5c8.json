@@ -1,7 +1,7 @@
 {
   "id": "tutorial-basics/create-a-page",
-  "title": "Create a Page",
-  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "title": "Managing Assets",
+  "description": "ShrouvEngine uses Tarmac to efficiently manage all your game assets",
   "source": "@site/docs/tutorial-basics/create-a-page.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-page",

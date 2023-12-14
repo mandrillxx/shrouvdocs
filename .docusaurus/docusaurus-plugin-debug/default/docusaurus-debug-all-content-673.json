@@ -43,6 +43,29 @@
               }
             },
             {
+              "id": "tutorial-api/mantle-config",
+              "title": "Mantle Config",
+              "description": "ShrouvEngine uses Mantle under the hood to manage game information",
+              "source": "@site/docs/tutorial-api/mantle-config.md",
+              "sourceDirName": "tutorial-api",
+              "slug": "/tutorial-api/mantle-config",
+              "permalink": "/docs/tutorial-api/mantle-config",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-api/mantle-config.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Congratulations!",
+                "permalink": "/docs/tutorial-basics/congratulations"
+              }
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "title": "Congratulations!",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
@@ -63,12 +86,16 @@
               "previous": {
                 "title": "Deploy your site",
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
+              },
+              "next": {
+                "title": "Mantle Config",
+                "permalink": "/docs/tutorial-api/mantle-config"
               }
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+              "title": "React UI",
+              "description": "ShrouvEngine uses React Lua to handle UI interaction which enables tons of really cool features",
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
@@ -84,66 +111,12 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
+                "title": "Managing Assets",
+                "permalink": "/docs/tutorial-basics/managing-assets"
               },
               "next": {
                 "title": "Markdown Features",
                 "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
               }
             },
             {
@@ -174,16 +147,70 @@
               }
             },
             {
+              "id": "tutorial-basics/entity-component-system",
+              "title": "Entity Component System",
+              "description": "ShrouvEngine offers the following default systems which integrate with Matter ECS",
+              "source": "@site/docs/tutorial-basics/entity-component-system.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/entity-component-system",
+              "permalink": "/docs/tutorial-basics/entity-component-system",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/entity-component-system.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
+              },
+              "next": {
+                "title": "Managing Assets",
+                "permalink": "/docs/tutorial-basics/managing-assets"
+              }
+            },
+            {
+              "id": "tutorial-basics/managing-assets",
+              "title": "Managing Assets",
+              "description": "ShrouvEngine uses Tarmac to efficiently manage all your game assets",
+              "source": "@site/docs/tutorial-basics/managing-assets.md",
+              "sourceDirName": "tutorial-basics",
+              "slug": "/tutorial-basics/managing-assets",
+              "permalink": "/docs/tutorial-basics/managing-assets",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/managing-assets.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Entity Component System",
+                "permalink": "/docs/tutorial-basics/entity-component-system"
+              },
+              "next": {
+                "title": "React UI",
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
+              }
+            },
+            {
               "id": "tutorial-basics/markdown-features",
               "title": "Markdown Features",
               "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
+              "source": "@site/docs/tutorial-basics/markdown-features.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -192,7 +219,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Create a Blog Post",
+                "title": "React UI",
                 "permalink": "/docs/tutorial-basics/create-a-blog-post"
               },
               "next": {
@@ -247,11 +274,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "tutorial-basics/entity-component-system"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "tutorial-basics/managing-assets"
                   },
                   {
                     "type": "doc",
@@ -276,6 +303,18 @@
                   "slug": "/category/tutorial---basics",
                   "permalink": "/docs/category/tutorial---basics"
                 }
+              },
+              {
+                "type": "category",
+                "label": "tutorial-api",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "tutorial-api/mantle-config"
+                  }
+                ]
               }
             ]
           }

@@ -9,8 +9,8 @@
       "permalink": "/docs/updating"
     },
     "next": {
-      "title": "Create a Page",
-      "permalink": "/docs/tutorial-basics/create-a-page"
+      "title": "Entity Component System",
+      "permalink": "/docs/tutorial-basics/entity-component-system"
     }
   }
 }

@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "tutorial-api/mantle-config",
+              "path": "/docs/tutorial-api/mantle-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -26,18 +31,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "tutorial-basics/deploy-your-site",
               "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/entity-component-system",
+              "path": "/docs/tutorial-basics/entity-component-system",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/managing-assets",
+              "path": "/docs/tutorial-basics/managing-assets",
               "sidebar": "tutorialSidebar"
             },
             {

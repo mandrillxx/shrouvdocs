@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-basics/managing-assets",
+  "title": "Managing Assets",
+  "description": "ShrouvEngine uses Tarmac to efficiently manage all your game assets",
+  "source": "@site/docs/tutorial-basics/managing-assets.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/managing-assets",
+  "permalink": "/docs/tutorial-basics/managing-assets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/managing-assets.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Entity Component System",
+    "permalink": "/docs/tutorial-basics/entity-component-system"
+  },
+  "next": {
+    "title": "React UI",
+    "permalink": "/docs/tutorial-basics/create-a-blog-post"
+  }
+}

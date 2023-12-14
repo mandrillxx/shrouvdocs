@@ -99,15 +99,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '94a'),
+    component: ComponentCreator('/docs', '123'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'a44'),
+        component: ComponentCreator('/docs', 'bb1'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0d9'),
+            component: ComponentCreator('/docs', '8e5'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
@@ -118,6 +118,12 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'aed'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/tutorial-api/mantle-config',
+                component: ComponentCreator('/docs/tutorial-api/mantle-config', '4a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -134,26 +140,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/tutorial-basics/deploy-your-site',
                 component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/tutorial-basics/entity-component-system',
+                component: ComponentCreator('/docs/tutorial-basics/entity-component-system', 'df6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/tutorial-basics/managing-assets',
+                component: ComponentCreator('/docs/tutorial-basics/managing-assets', 'd32'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+                component: ComponentCreator('/docs/tutorial-basics/markdown-features', '336'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -14,7 +14,7 @@ ShrouvRBLX is the main repository containing all submodules
 
 To quickly update all ShrouvEngine components:
 
-```bash
+```bash title="Project Root Directory"
 cd shrouvrblx
 git fetch
 git pull
@@ -27,14 +27,12 @@ After completing those steps, ShrouvEngine and its components should all be **up
 
 ShrouvEngine is accessible to modify as you please. Once you have modified `.\shrouvrblx\engine` to your liking, follow these steps:
 
-```bash
-# .\shrouvrblx
+```bash title="./shrouvrblx"
 npm run build
 ```
 
 And then in your ShrouvEngine experience
 
-```bash
-# .\shrouvrblx\experiences\experiencename
+```bash title="./shrouvrblx/experiences/{projectname}"
 npm i ..\..\engine\rbxts-shrouvengine-1.0.0.tgz
 ```

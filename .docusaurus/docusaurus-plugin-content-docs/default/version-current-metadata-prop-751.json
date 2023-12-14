@@ -31,21 +31,21 @@
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page",
+            "label": "Entity Component System",
+            "href": "/docs/tutorial-basics/entity-component-system",
+            "docId": "tutorial-basics/entity-component-system",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document",
+            "label": "Managing Assets",
+            "href": "/docs/tutorial-basics/managing-assets",
+            "docId": "tutorial-basics/managing-assets",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Create a Blog Post",
+            "label": "React UI",
             "href": "/docs/tutorial-basics/create-a-blog-post",
             "docId": "tutorial-basics/create-a-blog-post",
             "unlisted": false
@@ -73,6 +73,21 @@
           }
         ],
         "href": "/docs/category/tutorial---basics"
+      },
+      {
+        "type": "category",
+        "label": "tutorial-api",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Mantle Config",
+            "href": "/docs/tutorial-api/mantle-config",
+            "docId": "tutorial-api/mantle-config",
+            "unlisted": false
+          }
+        ]
       }
     ]
   },
@@ -83,6 +98,12 @@
       "description": "Let's discover ShrouvEngine in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },
+    "tutorial-api/mantle-config": {
+      "id": "tutorial-api/mantle-config",
+      "title": "Mantle Config",
+      "description": "ShrouvEngine uses Mantle under the hood to manage game information",
+      "sidebar": "tutorialSidebar"
+    },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",
       "title": "Congratulations!",
@@ -91,26 +112,26 @@
     },
     "tutorial-basics/create-a-blog-post": {
       "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "title": "React UI",
+      "description": "ShrouvEngine uses React Lua to handle UI interaction which enables tons of really cool features",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/deploy-your-site": {
       "id": "tutorial-basics/deploy-your-site",
       "title": "Deploy your site",
       "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/entity-component-system": {
+      "id": "tutorial-basics/entity-component-system",
+      "title": "Entity Component System",
+      "description": "ShrouvEngine offers the following default systems which integrate with Matter ECS",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/managing-assets": {
+      "id": "tutorial-basics/managing-assets",
+      "title": "Managing Assets",
+      "description": "ShrouvEngine uses Tarmac to efficiently manage all your game assets",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/markdown-features": {

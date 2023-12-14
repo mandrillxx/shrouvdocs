@@ -1,7 +1,7 @@
 {
   "id": "tutorial-basics/create-a-blog-post",
-  "title": "Create a Blog Post",
-  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "title": "React UI",
+  "description": "ShrouvEngine uses React Lua to handle UI interaction which enables tons of really cool features",
   "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-blog-post",
@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "title": "Managing Assets",
+    "permalink": "/docs/tutorial-basics/managing-assets"
   },
   "next": {
     "title": "Markdown Features",

@@ -19,5 +19,9 @@
   "previous": {
     "title": "Deploy your site",
     "permalink": "/docs/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Mantle Config",
+    "permalink": "/docs/tutorial-api/mantle-config"
   }
 }
