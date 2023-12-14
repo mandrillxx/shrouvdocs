@@ -11,9 +11,16 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "ShrouvEngine",
+        "label": "Getting Started",
         "href": "/docs/intro",
         "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Updating",
+        "href": "/docs/updating",
+        "docId": "updating",
         "unlisted": false
       },
       {
@@ -66,36 +73,13 @@
           }
         ],
         "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
       }
     ]
   },
   "docs": {
     "intro": {
       "id": "intro",
-      "title": "ShrouvEngine",
+      "title": "Getting Started",
       "description": "Let's discover ShrouvEngine in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },
@@ -135,16 +119,10 @@
       "description": "Docusaurus supports Markdown and a few additional features.",
       "sidebar": "tutorialSidebar"
     },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+    "updating": {
+      "id": "updating",
+      "title": "Updating",
+      "description": "This section assumes you have correctly installed and setup ShrouvEngine using the provided documentation.",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -4,120 +4,114 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '3e2'),
+    component: ComponentCreator('/__docusaurus/debug', '40e'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'c20'),
+    component: ComponentCreator('/__docusaurus/debug/config', '03f'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '195'),
+    component: ComponentCreator('/__docusaurus/debug/content', '9a3'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'b6c'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'd7a'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ef2'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'd40'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '046'),
+    component: ComponentCreator('/__docusaurus/debug/registry', 'd1a'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '017'),
+    component: ComponentCreator('/__docusaurus/debug/routes', '596'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '163'),
+    component: ComponentCreator('/blog', '6f2'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '738'),
+    component: ComponentCreator('/blog/archive', '972'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '982'),
+    component: ComponentCreator('/blog/first-blog-post', 'ac8'),
     exact: true
   },
   {
     path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '71b'),
+    component: ComponentCreator('/blog/long-blog-post', 'ac4'),
     exact: true
   },
   {
     path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', '355'),
+    component: ComponentCreator('/blog/mdx-blog-post', '925'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'ca7'),
+    component: ComponentCreator('/blog/tags', 'e01'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '68a'),
+    component: ComponentCreator('/blog/tags/docusaurus', '454'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '74b'),
+    component: ComponentCreator('/blog/tags/facebook', '43e'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '62e'),
+    component: ComponentCreator('/blog/tags/hello', 'dad'),
     exact: true
   },
   {
     path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '307'),
+    component: ComponentCreator('/blog/tags/hola', '5bc'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'aea'),
+    component: ComponentCreator('/blog/welcome', '2b3'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '498'),
+    component: ComponentCreator('/markdown-page', '559'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '262'),
+    component: ComponentCreator('/docs', '94a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '40b'),
+        component: ComponentCreator('/docs', 'a44'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '292'),
+            component: ComponentCreator('/docs', '0d9'),
             routes: [
               {
                 path: '/docs/category/tutorial---basics',
                 component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -164,14 +158,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+                path: '/docs/updating',
+                component: ComponentCreator('/docs/updating', '9f0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -183,7 +171,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f0a'),
+    component: ComponentCreator('/', '29c'),
     exact: true
   },
   {

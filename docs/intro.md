@@ -2,46 +2,48 @@
 sidebar_position: 1
 ---
 
-# ShrouvEngine
+# Getting Started
 
 Let's discover **ShrouvEngine in less than 5 minutes**.
 
-## Getting Started
+## ShrouvEngine
 
 Get started by **creating a new ShrouvEngine project**.
 
 ### What you'll need
 
--   [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-    -   When installing Node.js, you are recommended to check all checkboxes related to dependencies.
--   [Roblox-TS](https://roblox-ts.com/docs/setup-guide):
-    -   Just install Roblox TypeScript through the provided docs.
+- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Mantle](https://mantledeploy.vercel.app/) version 0.11.11 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+  - Make sure you setup your authentication, otherwise it will not deploy [Learn more](https://mantledeploy.vercel.app/docs/authentication)
 
 ## Generate a new project
 
-Generate a new ShrouvEngine game using the **classic template**.
+Generate a new ShrouvEngine game using the configurable **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+The classic template will automatically be added to your project after you run the following commands:
 
 ```bash
-npx shrouvengine@latest init
+git clone --recursive https://github.com/mandrillxx/shrouvrblx.git
+cd shrouvrblx
+npm run install
+npm run new
 ```
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to create an experience.
+The command will install all necessary dependencies you need to create an experience.
 
-## Start your site
+## Working with your new project
 
 Run the development server:
 
 ```bash
-cd my-website
-npm run start
+# .\shrouvrblx
+cd experiences\{projectname}
+yarn install
+yarn deploy:dev
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The `yarn deploy:dev` command will build your project, then run your generated `mantle.yml` config which will push it to the roblox site using your provided credentials.
