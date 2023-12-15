@@ -1,3 +1,8 @@
+# WARNING: Deprecated, use [github wiki](https://github.com/mandrillxx/shrouvrblx/wiki) for documentation
+<br/>
+<br/>
+<br/>
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
